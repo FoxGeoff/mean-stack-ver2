@@ -78,3 +78,4 @@ this.msg = "New Post Added";
 
 1. NOTE RELOAD VSCODE TO REMOVE ALL ERRORS!
 2. Ref code project: wing-man-ver3
+3. Ref for dividers: <https://www.angularjswiki.com/angular/angular-material-divider-mat-divider-example/>
