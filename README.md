@@ -41,6 +41,40 @@ this.msg = "New Post Added";
 2. Two way binding ```[(ngModel)]="myProp"``` requires FormModule
 3. ngModel is a directive - a funtion used in a template
 
-### Task: Add: Material modul
+### Task: Add: Material module
+
+1. ```ng add @angular/material```
+2. Ref. \Github\Sequelize_BookStore-finished
+
+```Javascript
+/**
+ * CORE MODULE
+ * Core folder should contain singleton
+ * services shared throughout app
+ *
+ * Services that are specific to a feature can
+ * go in the feature's folder
+ *
+ * Example: LoggingService, ErrorService,
+ * DataSerice
+ */
+
+/**
+ * SHARED MODULE: Reusable components, pipes and directives
+ *
+ * Shared folder should contain reusable
+ * components, pipes and directives
+ *
+ * Example: CalendarComponent,
+ * AutoCompleteComponent
+ */
+```
 
 ### Task: Add Fex Layout
+
+1. Run: ```npm i -s @angular/flex-layout @angular/cdk```
+
+### Task: Add: nav component
+
+1. NOTE RELOAD VSCODE TO REMOVE ALL ERRORS!
+2. Ref code project: wing-man-ver3
