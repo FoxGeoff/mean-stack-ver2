@@ -8,3 +8,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Add posts/post-create/post-create component
 2. Add post-create template
+3. Add: listen to event `<button (click)="onAddPost()">Save Post</button>`
+

@@ -12,7 +12,7 @@ export class PostCreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onclick() {
-    
+  onAddPost() {
+    alert('Post added!');
   }
 }
