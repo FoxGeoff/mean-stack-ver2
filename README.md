@@ -10,3 +10,29 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. Add post-create template
 3. Add: listen to event `<button (click)="onAddPost()">Save Post</button>`
 
+### Task: Output Content
+
+```html
+
+<h1>Create a Post</h1>
+<textarea #note row="6"></textarea>>
+<hr>
+<button (click)="onAddPost(note)">Save Post</button>
+
+```
+
+```TypeScript
+  onAddPost(note: any) {
+    alert(`Post added! ${note.value}`);
+  }
+```
+
+1. string interpellation
+
+```TypeScript
+msg: string;
+
+this.msg = "New Post Added";
+// in template
+{{ msg }}
+```

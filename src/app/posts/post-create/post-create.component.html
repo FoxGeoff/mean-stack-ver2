@@ -1,4 +1,5 @@
 <h1>Create a Post</h1>
-<textarea row="6"></textarea>>
+<textarea #note row="6"></textarea>>
 <hr>
-<button (click)="onAddPost()">Save Post</button>
+<button (click)="onAddPost( note)">Save Post</button>
+{{ msg }}
