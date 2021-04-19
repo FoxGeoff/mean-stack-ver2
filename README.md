@@ -7,3 +7,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Adding our First Component
 
 1. Add posts/post-create/post-create component
+2. Add post-create template
